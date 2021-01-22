@@ -1,3 +1,4 @@
+//Solution of first problem
 function kilometerToMeter(n) {
     if (n >= 0) {
         var meter = n * 1000;
@@ -8,6 +9,7 @@ function kilometerToMeter(n) {
     return meter;
 }
 
+//solution of second problem
 function budgetCalculator(x, y, z) {
     var n;
     if (n < 0) {
@@ -24,6 +26,7 @@ function budgetCalculator(x, y, z) {
     return budget;
 }
 
+//Solution of third problem
 function hotelCost(n) {
     var cost = 0;
     if (n > 0) {
@@ -51,6 +54,7 @@ function hotelCost(n) {
     return cost;
 }
 
+//Solution of fouth problem
 function megaFriend(n) {
     if (n < 0) {
         return "Please enter valid input"
@@ -66,7 +70,3 @@ function megaFriend(n) {
     }
     return largest
 }
-var x = ["rafi", "rafsan", "ratul", "ridhayy", "ramisha", "hia", "dhrubo", "kabbo", 'ddhjdhdhfhfffufffuyfffryf'];
-
-var result = megaFriend(x);
-console.log(result);
